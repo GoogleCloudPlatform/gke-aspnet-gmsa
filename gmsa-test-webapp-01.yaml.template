@@ -61,4 +61,4 @@ spec:
       nodeSelector:
         beta.kubernetes.io/os: windows
         cloud.google.com/gke-nodepool: windows-server-pool
-        node.kubernetes.io/windows-build: '10.0.17763'
+        cloud.google.com/gke-windows-os-version: 2022
