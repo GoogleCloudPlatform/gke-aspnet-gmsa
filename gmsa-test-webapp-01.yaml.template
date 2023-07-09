@@ -59,6 +59,5 @@ spec:
             valueFrom:
               fieldRef:
                 fieldPath: metadata.name
-      nodeSelector:        
-        cloud.google.com/gke-nodepool: windows-server-pool
+      nodeSelector:
         cloud.google.com/gke-windows-os-version: 2022
