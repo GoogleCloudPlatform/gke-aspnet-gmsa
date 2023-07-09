@@ -49,7 +49,7 @@ spec:
          windowsOptions:
            gmsaCredentialSpecName: webapp-01
       containers:
-      - image: ${registry_path}/test-gmsa:latest
+      - image: ${image_path}
         imagePullPolicy: Always
         name: iis
         ports:
