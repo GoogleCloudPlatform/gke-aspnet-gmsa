@@ -16,6 +16,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: gmsa-test-webapp-01
+  namespace: default
   labels:
     app: gmsa-test-webapp-01
 spec:
@@ -58,7 +59,6 @@ spec:
             valueFrom:
               fieldRef:
                 fieldPath: metadata.name
-      nodeSelector:
-        beta.kubernetes.io/os: windows
+      nodeSelector:        
         cloud.google.com/gke-nodepool: windows-server-pool
         cloud.google.com/gke-windows-os-version: 2022
