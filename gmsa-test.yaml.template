@@ -48,7 +48,7 @@ spec:
          windowsOptions:
            gmsaCredentialSpecName: ${gmsa_name}
       containers:
-      - image: gcr.io/${project_id}/test-gmsa:latest
+      - image: ${image_path}
         imagePullPolicy: Always
         name: iis
         ports:
