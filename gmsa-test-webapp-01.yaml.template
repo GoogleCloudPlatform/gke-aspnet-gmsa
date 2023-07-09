@@ -60,4 +60,4 @@ spec:
               fieldRef:
                 fieldPath: metadata.name
       nodeSelector:
-        cloud.google.com/gke-windows-os-version: 2022
+        cloud.google.com/gke-windows-os-version: "2022"
