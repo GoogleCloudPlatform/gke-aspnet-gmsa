@@ -60,4 +60,5 @@ spec:
               fieldRef:
                 fieldPath: metadata.name
       nodeSelector:
+        kubernetes.io/os: "windows"
         cloud.google.com/gke-windows-os-version: "2022"
